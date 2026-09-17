@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 nav {
     background-color: darkblue;
     padding: 10px;
@@ -30,6 +36,7 @@ main {
 }
 
 main img {
+    float: right;
     width: 200px;
     height: auto;
     border: 1px solid black;
@@ -38,12 +45,15 @@ main img {
 }
 
 aside {
+    position: relative;
     max-width: 600px;
-    margin: auto 0;
-    border: 1px solid gray;
-    padding: 10px;
-    background-color: aquamarine;
-    color: black;
+}
+
+aside h2 {
+    position: absolute;
+    top: 10%;
+    left: 25px;
+    color: blue;
 }
 
 aside img {
@@ -55,4 +65,14 @@ footer {
     margin-top: 20px;
     border-top: 1px solid black;
     text-align: center;
+}
+
+/* CSS class selectors */
+
+.box {
+    margin: 1rem;
+    border: 1rem;
+    padding: 1rem;
+    background-color: lightgray;
+    color: black;
 }
