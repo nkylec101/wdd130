@@ -1,0 +1,83 @@
+:root {
+    --primary-color: #535353;
+    --secondary-color: #000;
+    --heading-font: Verdana, Geneva, Tahoma, sans-serif;
+    --body-font: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--primary-color);
+}
+
+header,
+main,
+footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+h1,
+h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+nav,
+p,
+section,
+article {
+    margin: 16px;
+    padding: 8px;
+}
+
+.socialmedia {
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+article {
+    position: absolute;
+    padding: 6px;
+    right: 4px;
+    bottom: 4px;
+    width: 200px;
+    background-color: bisque;
+}
+
+.hero article img {
+    width: 100%;
+    height: auto;
+}
+
+.hero article p {
+    margin: 0;
+    padding: 4px;
+    font-size: 14px;
+}
