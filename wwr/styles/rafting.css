@@ -23,6 +23,28 @@ footer {
     margin: 0 auto;
 }
 
+header {
+    display: grid;
+    grid-template-columns: 120px 1fr 1fr;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    max-width: 1000px;
+    background-color: #ccc;
+    color: black;
+}
+
+header img {
+    width: 100px;
+    height: auto;
+}
+
+header div {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
 h1,
 h2 {
     font-family: var(--heading-font);
@@ -35,6 +57,35 @@ section,
 article {
     margin: 16px;
     padding: 8px;
+}
+
+section {
+    display: grid;
+    align-items: first baseline;
+}
+
+figure {
+    display: flex;
+    flex-flow: column;
+    padding: 6px;
+    width: 100px;
+    height: auto;
+}
+
+/* -------------CSS class------------- */
+
+.navigation {
+    display: flex;
+    list-style: none;
+}
+
+.navigation li {
+    flex: 1 1 auto;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: black;
 }
 
 .socialmedia a {
@@ -81,4 +132,36 @@ article {
     margin: 0;
     padding: 4px;
     font-size: 14px;
+}
+
+.history {
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.history_hero {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.history_hero img {
+    width: auto;
+    height: 130px;
+}
+
+.history_hero p {
+    margin: 0;
+    padding: 0 auto;
+}
+
+.adventure div {
+    display: flex;
+    width: 400px;
+    height: auto;
+    justify-content: space-evenly;
 }
