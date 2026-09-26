@@ -53,28 +53,33 @@ article {
     padding: 8px;
 }
 
-section {
+/* section div {
     display: grid;
-    /* align-items: first baseline; */
-}
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+} */
 
-/* figure {
-    display: grid;
-    align-items: center;
-    padding: 10px;
-    max-width: 1000px;
-}
-
-figure img {
-    display: flex;
-    justify-content: space-evenly;
+figure {
+    align-content: center;
 }
 
 figure figcaption {
     text-align: center;
-} */
+}
 
-/* -------------CSS class------------- */
+footer {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    align-items: center;
+    background-color: #ccc;
+}
+
+/* -----------------------------CSS class-------------------------- */
+
+.logotitle {
+    font-family: var(--body-font);
+    font-weight: 700;
+    font-size: 20px;
+}
 
 .navigation {
     display: flex;
@@ -88,16 +93,6 @@ figure figcaption {
 .navigation a {
     text-decoration: none;
     color: #000;
-}
-
-.logotitle {
-    font-family: var(--body-font);
-    font-weight: 700;
-    font-size: 20px;
-}
-
-.socialmedia a {
-    text-decoration: none;
 }
 
 .hero {
@@ -143,33 +138,68 @@ figure figcaption {
 }
 
 .history {
-    margin: 0 auto;
-    padding: 10px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: center;
-
-}
-
-.history_hero {
-    display: flex;
     justify-content: space-evenly;
+
 }
 
-.history_hero img {
-    width: auto;
-    height: 130px;
-}
-
-.history_hero p {
-    margin: 0;
-    padding: 0 auto;
-}
-
-.adventure div {
+.historyhero {
     display: flex;
-    width: 400px;
+    flex-direction: row;
+}
+
+.history h2 {
+    margin-bottom: 1rem;
+}
+
+.historyhero img {
+    width: 300px;
     height: auto;
+    padding: 1em;
+}
+
+.adventure {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: space-evenly;
+}
+
+.adventure h2 {
+    margin-bottom: 1rem;
+}
+
+.adfigure {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.adfigure img {
+    width: 150px;
+    height: auto;
+    padding: 1em;
+    margin-top: 1em;
+}
+
+.figureitem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.figureitem figcaption {
+    font-size: 12px;
+}
+
+.socialmedia {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.socialmedia a {
+    text-decoration: none;
 }
