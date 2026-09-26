@@ -28,10 +28,9 @@ header {
     grid-template-columns: 120px 1fr 1fr;
     align-items: center;
     padding: 10px;
-    border-bottom: 1px solid #ccc;
     max-width: 1000px;
     background-color: #ccc;
-    color: black;
+    color: #000;
 }
 
 header img {
@@ -39,14 +38,9 @@ header img {
     height: auto;
 }
 
-header div {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-}
-
 h1,
 h2 {
+    text-align: center;
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
@@ -61,16 +55,24 @@ article {
 
 section {
     display: grid;
-    align-items: first baseline;
+    /* align-items: first baseline; */
 }
 
-figure {
-    display: flex;
-    flex-flow: column;
-    padding: 6px;
-    width: 100px;
-    height: auto;
+/* figure {
+    display: grid;
+    align-items: center;
+    padding: 10px;
+    max-width: 1000px;
 }
+
+figure img {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+figure figcaption {
+    text-align: center;
+} */
 
 /* -------------CSS class------------- */
 
@@ -85,7 +87,13 @@ figure {
 
 .navigation a {
     text-decoration: none;
-    color: black;
+    color: #000;
+}
+
+.logotitle {
+    font-family: var(--body-font);
+    font-weight: 700;
+    font-size: 20px;
 }
 
 .socialmedia a {
@@ -104,7 +112,7 @@ figure {
     text-align: center;
     opacity: 0.7;
     background-color: var(--secondary-color);
-    color: white;
+    color: #fff;
 }
 
 .hero img {
@@ -119,7 +127,7 @@ figure {
     right: 4px;
     bottom: 4px;
     width: 200px;
-    background-color: bisque;
+    background-color: #ffe4c4;
 }
 
 .hero article img {
