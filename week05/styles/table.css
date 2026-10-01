@@ -1,0 +1,24 @@
+table {
+    border-collapse: collapse;
+    border: 1px solid #000;
+    font-family: monospace;
+    font-size: large;
+}
+
+th,
+td {
+    padding: 12px 24px;
+    text-align: center;
+    border: 1px solid #4e4e4e;
+}
+
+tr {
+    border: 1px solid #4e4e4e;
+}
+
+thead th,
+tfoot tr {
+    padding: 12px 24px;
+    background-color: #000;
+    color: #fff;
+}
