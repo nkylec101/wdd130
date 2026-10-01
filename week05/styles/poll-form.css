@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    margin: 0 auto;
+    padding-bottom: 16px;
+    width: 650px;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+head {
+    margin: 0 auto;
+    width: 650px;
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 30px;
+    color: navy;
+    text-align: center;
+}
+
+form {
+    gap: 20px;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: gray;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 16px;
+    border-radius: 4px;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    gap: 20px;
+    padding: 16px;
+    border-radius: 4px;
+    border: 1px solid gray;
+}
+
+legend {
+    padding: 10px;
+    color: navy;
+    font-size: 1rem;
+}
+
+label,
+input,
+select,
+button,
+textarea {
+    padding: 6px 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+button {
+    background-color: navy;
+    color: white;
+    border-radius: 8px;
+}
+
+.checkbox {
+    align-items: left;
+}
