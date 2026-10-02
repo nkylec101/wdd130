@@ -1,0 +1,63 @@
+main h1 {
+    text-align: center;
+}
+
+form {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem 1.5rem;
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 1rem;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+label {
+    text-align: left;
+}
+
+.samplecode {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-right: 35rem;
+    margin-left: 2rem;
+    padding: .5rem;
+    gap: 1rem;
+}
+
+button {
+    width: auto;
+    margin-top: 1.5rem;
+    background-color: navy;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+}
+
+div textarea {
+    border: none;
+}
+
+label,
+select {
+    margin: .8rem;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.header input {
+    width: 30px;
+    height: auto;
+}
