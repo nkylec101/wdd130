@@ -53,6 +53,16 @@ article {
     padding: 8px;
 }
 
+iframe {
+    width: auto;
+    height: 100%;
+}
+
+form {
+    display: grid;
+    row-gap: 20px;
+}
+
 figure {
     align-content: center;
 }
@@ -208,18 +218,44 @@ footer {
 
 /* -----------------------------Contact Us-------------------------- */
 
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.information p {
+    margin: 0;
+    padding: 2px;
+}
+
 .map_form {
     display: flex;
     justify-content: space-evenly;
+    margin-top: 20px;
 }
 
-.map_form div {
-    max-width: 500px;
+.messagep {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-.map_for iframe {
-    width: 300px;
-    height: auto;
+.messagep p {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.column2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .serve_you {
