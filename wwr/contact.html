@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Whitewater Rafting</title>
+    <meta name="description"
+      content="Nathan Kyle Calica | WDD130 | Provides contact information and a form to obtain user input including questions and comments.">
+    <meta name="author" content="Nathan Kyle Calica">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/wwr_logo.png" alt="Whitewater Rafting Logo">
+        <div class="logotitle">Whitewater Rafting</div>
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Whitewater Rafting Company</h1>
+        <p>123 Main River Street</p>
+        <p>Badian, Cebu, Philippines</p>
+        <p>+1 999 999 9999</p>
+        <p>info@whitewater.com</p>
+        <section class="map_form">
+            <div>
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3931.556962868983!2d123.37433109999998!3d9.8035027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33abc071985da1cd%3A0x357899ef7e6324cf!2sKawasan%20Falls!5e0!3m2!1sen!2sae!4v1791027328554!5m2!1sen!2sae"
+                  width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="strict-origin-when-cross-origin">
+                </iframe>
+            </div>
+            <div>
+                <form>
+                    <fieldset>
+                        <legend>Contact Information</legend>
+                        <div class="form-item column2">
+                            <label for="username">Username:</label>
+                            <input type="text" id="username" name="username" required>
+                        </div>
+
+                        <div class="form-item column2">
+                            <label for="useremail">Email:</label>
+                            <input type="email" id="useremail" name="useremail"
+                              placeholder="example@mail.com" required>
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Questions</legend>
+
+                        <div class="form-item column1">
+                            <label for="browser">What is your Favorite Browser:</label>
+                            <select id="browser" name="browser">
+                                <option value="1">Chrome</option>
+                                <option value="2">Safari</option>
+                                <option value="3">Opera</option>
+                            </select>
+                        </div>
+
+                        <div class="form-item column1">
+                            <label for="pet">Do you have a pet?</label>
+                            <input type="checkbox" id="pet" name="pet">
+                        </div>
+
+                        <div class="form-item">
+                            <label for="feedback">List the places you have lived?</label>
+                            <textarea type="feedback" id="feedback" name="feedback" rows="4"
+                              placeholder="Philippines, UAE.."></textarea>
+                        </div>
+                    </fieldset>
+
+                    <button type="submit">Submit Poll</button>
+                </form>
+            </div>
+        </section>
+        <section class="serve_you">
+            <h2>We Are Here To Serve You!</h2>
+            <div class="team">
+                <figure class="profile person1"><img src="images/adam_mcclean.jpg"
+                      alt="Adam Mcclean">
+                    <figcaption>Adam Mcclean</figcaption>
+                </figure>
+                <figure class="profile person2"><img src="images/jasmine_jonis.jpg"
+                      alt="Jasmine Jonis">
+                    <figcaption>Jasmine Jonis</figcaption>
+                </figure>
+                <figure class="profile person3"><img src="images/gilbert_albovsky.jpg"
+                      alt="Gilbert Albovsky">
+                    <figcaption>Gilbert Albovsky</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy;2026 🚣 Whitewater Rafting 🚣 Nathan Kyle Calica</p>
+        <nav class="socialmedia">
+            <a href="https://www.facebook.com" target="_blank">
+                <img src="images/facebook.svg" alt="Facebook Icon">
+            </a>
+            <a href="https://www.instagram.com/?hl=en" target="_blank">
+                <img src="images/instagram.svg" alt="Instragram Icon">
+            </a>
+            <a href="https://x.com" target="_blank">
+                <img src="images/x_twitter.svg" alt="X / Twitter Icon">
+            </a>
+        </nav>
+    </footer>
+
+</body>
+
+</html>

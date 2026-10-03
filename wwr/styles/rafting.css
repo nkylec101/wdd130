@@ -53,11 +53,6 @@ article {
     padding: 8px;
 }
 
-/* section div {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-} */
-
 figure {
     align-content: center;
 }
@@ -74,6 +69,8 @@ footer {
 }
 
 /* -----------------------------CSS class-------------------------- */
+
+/* -----------------------------About Us-------------------------- */
 
 .logotitle {
     font-family: var(--body-font);
@@ -202,4 +199,58 @@ footer {
 
 .socialmedia a {
     text-decoration: none;
+}
+
+.socialmedia img {
+    width: 30px;
+    height: auto;
+}
+
+/* -----------------------------Contact Us-------------------------- */
+
+.map_form {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.map_form div {
+    max-width: 500px;
+}
+
+.map_for iframe {
+    width: 300px;
+    height: auto;
+}
+
+.serve_you {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-top: 1px solid #b9b9b9;
+}
+
+.serve_you h2 {
+    margin-bottom: 1rem;
+}
+
+.team {
+    display: flex;
+}
+
+.team img {
+    width: 150px;
+    height: auto;
+    padding: 1em;
+    margin-top: 1em;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 3rem;
+}
+
+.profile figcaption {
+    font-size: 12px;
 }
